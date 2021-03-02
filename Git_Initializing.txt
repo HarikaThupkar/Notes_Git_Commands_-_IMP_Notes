@@ -1,0 +1,42 @@
+
+#Download Git from the below link for Windows 10 / Mac
+
+https://git-scm.com/download/win
+
+https://git-scm.com/download/mac
+
+# Basic commands to install Git in command prompt or in GIT BASH
+
+1. git init   ---- Initialize local repository
+
+
+2.To push the files from local to remote.
+
+---> git add <File path> //add files to Index
+
+---> git add .  //add files to Index
+
+---> git remote add origin + copy the remote path
+
+---> git status   // check status of working tree.
+
+---> git commit  -m " some message"//commit changes in index
+
+---> git push origin main  // push to remote repository.
+
+ls -lart -- to get all recursive list of files
+
+-m // is for message
+
+
+####### Create a floder by cloning from remote to local####
+cd ~  //ggo to home
+pwd   // present working directory
+mk dir git_projects   // mk dir - make directory, git_projects- created new folder which does not have .git for it. 
+But we can have sub folders init where it has .git to it and it can be cloned to github remote.
+cd git_projects // changes directory to git_project folder
+* git clone <give the file path from the remote i.e., git hub clone drop down>
+ls -lart
+
+
+ssh-rsa AAAAB3NzaC1yc2EAAAADAQABAAABgQDEko67Jlkt+Mud4f2+YWHZmKS5Fh5hwHuiODjZKREEHf5q417ih+o/7T9sHMC5AE3PLCjCz4QtD091J9FwcmbcfBLFBm7sMX8RpClpgYDNHxV8E9+4ySt92r6ExUkb7nxBUnZAusTmijINH8nVUTFjDYPDYowVKG/LBCuBBA09rlbtM5EvbBv7YkM3bp46Ajnf4Kny4t8wXux1L2XZ8ZrC8uP4Uf6J31a4tPt8vqFW/H5DmACh4yIIKUFRJrnINdbE4SXHBhnNt97EvrPZL+m3bihtCP1R+AtY0nvdbtsi9b8DK351dX3i3cPxm5FzvVoDzGc74RbA+BHlkM1N7f57qtDDceTClxXzJNP7qKxha63IhsrvILj8q3fFbBxvMP0y9hKEkYm+QScYLf6uhNFMc4D50keGiRHb30pr3zHSuib27yot6WtQGVk3OFvatC6fdXkaZ5xmv6fTQrHhV60SSuZO45v2Hd8y13U3SXxueTcaFJ/t30sWEmYdptGh6c8= pavan@LAPTOP-34BA4D3K
